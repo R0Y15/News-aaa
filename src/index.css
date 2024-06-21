@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #F5EDDC !important;
+  background-image: url("/public/paper.jpeg");
+  height: screen;
+  background-position: center; 
+  background-attachment: fixed; 
+  background-size: cover; 
+}
+
+Header {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.divider {
+  border-top: 1px solid #464b5096;
+  width: 60%;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 3.5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #EF6262;
+}

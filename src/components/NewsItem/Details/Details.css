@@ -1,0 +1,25 @@
+.details {
+  margin-bottom: 15px;
+}
+
+.summary {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 80px;
+  color: #0000008c;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.channel,
+.published {
+  color: #6c757d;
+  margin-bottom: 3px;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.channel>span,
+.published>span {
+  font-weight: 700;
+}

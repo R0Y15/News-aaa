@@ -1,0 +1,95 @@
+.navbar {
+  /* background-color: #1D5B79 !important; */
+  background-color: transparent !important;
+  backdrop-filter: blur(10px) !important;
+  padding: 20px !important;
+  font-size: 18px !important;
+  /* height: 80px !important; */
+}
+
+.nav-brand {
+  font-size: 23px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  font-weight: 700 !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+}
+
+.nav {
+  margin-left: 5px !important;
+}
+
+.nav-item {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-left: 10px !important;
+  transition: 0.3s ease !important;
+}
+
+.nav-item:hover {
+  transform: translateY(-3px) !important;
+  text-decoration: underline !important;
+}
+
+.close-btn {
+  color: #0000008c !important;
+  cursor: pointer !important;
+  margin-inline-end: 6px !important;
+}
+
+.search-form {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.form-input {
+  border-radius: 0 !important;
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  padding: 11px !important;
+  margin-left: 13px !important;
+  margin-right: -9px !important;
+  font-size: 18px !important;
+  background-color: #F5EDDC !important;
+  color: #000000 !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.form-input:focus {
+  box-shadow: none !important;
+}
+
+.logo {
+  width: 45px !important;
+  margin-right: 10px !important;
+}
+
+.search-btn {
+  background-color: #EF6262 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important;
+  padding: 8px 15px !important;
+  border-color: #EF6262 !important;
+  font-size: 18px !important;
+  margin-right: 10px !important;
+}
+
+.search-btn:hover {
+  background-color: #dd4e4e !important;
+  transition: 0.5s ease !important;
+}
+
+.search-btn:disabled {
+  background-color: #EF6262 !important;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px !important;
+  }
+}

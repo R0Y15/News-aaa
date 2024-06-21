@@ -1,0 +1,86 @@
+.card {
+    position: relative !important;
+    border-radius: 15px !important;
+    /* background-color: #fff !important; */
+    border: 0.5px solid #323762b7 !important;
+    background-color: #f5eddc67 !important;
+    box-shadow: 0px 3px 12px 0px #0000002b !important;
+    color: #000000 !important;
+    transition: transform 0.4s ease !important;
+    height: 600px;
+    cursor: pointer;
+    ;
+}
+
+.card:hover {
+    transform: scale(1.02) !important;
+}
+
+.card-img {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 230px !important;
+}
+
+.card-title {
+    max-height: 75px !important;
+    overflow: hidden !important;
+}
+
+.card-description {
+    color: #0000008c !important;
+    font-weight: 600 !important;
+    height: 100px;
+    overflow: hidden;
+}
+
+.card-details {
+    color: #0000008c !important;
+}
+
+.card-btn {
+    position: absolute !important;
+    bottom: 0 !important;
+    margin-bottom: 20px;
+    border-radius: 15px !important;
+    font-weight: bold !important;
+    box-shadow: 0px 3px 12px 0px #0000002b !important;
+    color: white !important;
+    border-color: #EF6262 !important;
+    padding: 9px 17px !important;
+    background-color: #EF6262 !important;
+    transition: 0.5s ease !important;
+}
+
+.card-btn:hover {
+    background-color: #ef6262d8 !important;
+}
+
+.fav {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    border-radius: 100% !important;
+    /* background-color: #ef6262a9 !important; */
+    color: white !important;
+    transition: 0.5s ease !important;
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+
+.fav-icon {
+    filter: invert(100%) !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.arrow-icon {
+    fill: #fff !important;
+    width: 13px !important;
+    transition: transform 0.5s ease !important;
+}
+
+.card-btn:hover .arrow-icon {
+    transform: translateX(5px);
+}
