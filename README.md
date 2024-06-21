@@ -2,6 +2,8 @@
 
 ![](/public/cover-page.png)
 
+Visit Link: [Newz-aaa](https://news-aaa.vercel.app/)
+
 The News-aaa is a sleek and intuitive news app built using React. It’s your go-to source for staying updated on global events, tech breakthroughs, and entertainment buzz.
 
 ## Technologies Used
@@ -35,7 +37,7 @@ To run the React News App on your local machine, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
 ```
-git clone https://github.com/R0Y15/Newz-aaa.git
+git clone https://github.com/R0Y15/News-aaa.git
 ```
 
 2. Navigate to the project directory:
